@@ -1,5 +1,5 @@
 <?php
-$name='welcome to php test';
+$name='welcome to php testoo';
 print_r($name);
 
 
