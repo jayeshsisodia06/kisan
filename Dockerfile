@@ -8,7 +8,7 @@ WORKDIR /var/www/html
 COPY . /var/www/html
 
 # Expose port 8001 for web traffic
-EXPOSE 8001
+EXPOSE 8005
 
 # Start the PHP development server
-CMD ["php", "-S", "0.0.0.0:8001"]
+CMD ["php", "-S", "0.0.0.0:8005"]
