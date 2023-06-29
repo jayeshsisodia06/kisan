@@ -7,8 +7,8 @@ WORKDIR /var/www/html
 # Copy the PHP files from your project to the container
 COPY . /var/www/html
 
-# Expose port 8001 for web traffic
-EXPOSE 8001
+# Expose port 80 for web traffic
+EXPOSE 80
 
 # Start the PHP development server
-CMD ["php", "-S", "0.0.0.0:8001"]
+CMD ["php", "-S", "0.0.0.0:80"]
